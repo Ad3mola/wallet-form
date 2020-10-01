@@ -94,17 +94,17 @@ textarea::-webkit-scrollbar-thumb {
 }
 /* ALERT CARD */
 .alert-card {
-  width: 30%;
+  width: 20%;
   position: fixed;
   top: 4em;
-  transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  right: 0;
+  transform: translateX(120%);
+  -webkit-transform: translateX(120%);
+  -ms-transform: translateX(120%);
+  right: 3%;
   z-index: 1000;
-  border-radius: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border-radius: 4px;
 }
 .alert-card[transform] {
   -webkit-transform: translateX(0);
