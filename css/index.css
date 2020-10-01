@@ -107,8 +107,6 @@ body::-webkit-scrollbar {
   -ms-transform: translateX(100%);
   right: 0;
   z-index: 1000;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
 @keyframes alert {
